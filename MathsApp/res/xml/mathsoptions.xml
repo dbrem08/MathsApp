@@ -1,0 +1,35 @@
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory
+                android:title="General Preferences">
+                <CheckBoxPreference
+                        android:title="Default"
+                        android:defaultValue="true"
+                        android:summary="@string/default_pref"
+                        android:key="default_Pref" />
+                <ListPreference
+                        android:title="Operator display"
+                        android:summary="Change the symble style of operators"
+                        android:key="operator_pref_key"
+                        android:defaultValue="0"
+                        android:entries="@array/operator_options"
+                        android:entryValues="@array/operator_val" />
+        </PreferenceCategory>
+        <PreferenceCategory
+                android:title="Second Category">
+        <EditTextPreference
+                android:name="Decimal places"
+                android:summary="Change the number of decimalplaces"
+                android:inputType="number"
+                android:defaultValue="5"
+                android:title="Decimal Places"
+                android:key="decimal_places_pref" />
+
+
+        <CheckBoxPreference
+               android:title="@string/update_pref_title"
+               android:defaultValue="false"
+               android:summary="@string/update_pref_sum"
+               android:key="update_Pref" />
+        </PreferenceCategory>
+</PreferenceScreen>

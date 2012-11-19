@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="stealthness.com"
+    android:versionCode="3"
+    android:versionName="Celeriac Soup" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".MathsAppActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MathsAppPrefActivity"
+            android:label="Prefereces" >
+            <intent-filter>
+                <action android:name=".MathsAppPrefActivity" />
+
+                <category android:name="android.intent.category.PREFERENCE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".input.MathsAppGesturesInputActivity" >
+        </activity>
+        <activity android:name=".input.MathsAppVoiceInputActivity" >
+        </activity>
+    </application>
+
+</manifest>

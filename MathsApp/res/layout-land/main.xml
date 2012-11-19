@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/buttonVoice"
+            style="@style/ButtonText"
+            android:background="@drawable/button_green"
+            android:text="@string/voice" />
+
+        <Button
+            android:id="@+id/buttonGesture"
+            style="@style/ButtonText"
+            android:background="@drawable/button_green"
+            android:text="@string/gesture" />
+
+        <Button
+            android:id="@+id/buttonChangeKeyboard"
+            style="@style/ButtonText"
+            android:background="@drawable/button_green"
+            android:onClick="changeKeyboard" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.67"
+            android:scrollbars="vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/editExpression"
+                style="@style/editExpression"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editExpressionHint" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <include
+                android:id="@+id/include_keyboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                layout="@layout/keys_numbers" />
+
+            <include
+                android:id="@+id/include_cursor"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                layout="@layout/keys_cursor" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

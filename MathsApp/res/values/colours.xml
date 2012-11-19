@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ablue">#449def</color>
+    <color name="adarkblue">#151B54</color>
+    <color name="alightblue">#3BB9FF</color>
+    
+    <color name="ared">#ef4444</color>
+    <color name="adarkred">#800517</color>
+    <color name="alightred">#E77471</color>
+    
+    <color name="ayellow">#FBB117</color> 
+    <color name="adarkyellow">#C34A2C</color>
+    <color name="alightyellow">#FFF8C6</color>
+    
+    <color name="agreen">#347C17</color> 
+    <color name="adarkgreen">#254117</color>
+    <color name="alightgreen">#52D017</color>
+    
+</resources>

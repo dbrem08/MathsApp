@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+        
+
+        <Button
+            android:id="@+id/btn_speak"
+            style="@style/ButtonText"
+            android:background="@drawable/button_green"
+            android:onClick="onClick"
+            android:text="@string/buttonSpeak" />
+
+         <Button
+            android:id="@+id/btn_cancel"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:onClick="onClick"
+            android:text="@string/buttonCancel" />          
+    </LinearLayout>
+    
+    <TextView 
+        android:id="@+id/textVoiceSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:text="@string/textVoiceSelect">
+    </TextView>
+       
+    <ListView 
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+    </ListView>
+
+</LinearLayout>

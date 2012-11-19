@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MathsApp</string>
+    <string name="menu_pref_title">Preferences</string>
+    <string name="menu_help_title">Help</string>
+    <string name="menu_about_title">About</string>
+    <string name="voice">Voice</string>
+    <string name="gesture">Gestures</string>
+    
+    <string name="option0">first option</string><string name="option1">second option</string>
+    
+    <string name="key">selected_option</string>
+    <string name="default_pref">Checking this option will load default options</string>
+    
+    <string name="screen_pref_title">Screen display Setting</string>
+    <string name="screen_pref_sum">More options on Screen settings</string>
+    
+    <string name="update_pref_sum">Allow automatic updates</string>
+    <string name="update_pref_title">Automatic updates</string>
+    
+    <string name="buttonKeyboardNumbers">Numbers</string>
+    <string name="buttonKeyboardLetters">Letters</string>
+        
+    <string name="welcome_text">\n
+Welcome to MathsApp\n\n
+This application is light weight version of Octave to calculate mathematic expression written in Matlab script.\n\n
+Help is available from menu options.\n\n
+Thank you very much for downloading this application, feedback is welcome at stevewestinlondon@yahoo.com \n\n
+        
+    </string>
+    <string name="menu_help_text">no main help as yet</string>
+    <string name="menu_no_help">no help as yet</string>
+    <string name="menu_voice_help">Voice Help\n
+To input an expression using voice requires an internet connection.\n
+When the microphone icon appears, speak clearly the expression you wish to calculate.\n
+A list of possible expression will be presented, selected the appropriate expression.\n
+If you want to speak your expression again press the speak button.\n
+If unhappy with any expression or want to end voice input press cancel.
+</string>
+    <string name="menu_gestures_help">Gesture Help\n
+Gesture input allows you to draw individual characters to build a mathematical expression.\n
+Draw a character which will then be displayed at the top, if unhappy, you can press delete to remove the last character, or Clear to remove all of the current express.\n\n
+Once happy with an expression press OK to return expression back to MathsApp, or Cancel to return without any expression.\n\n
+</string>
+    <string name="menu_about_text">\n
+This is a mathematical application.\n\n
+It was designed by Stephen West, 2011.\n\n
+For more information got to http://code.google.com/p/stealthness-maths/\n</string>
+	
+    <string name="buttonOK">OK</string>
+	<string name="buttonCancel">Cancel</string>
+	<string name="buttonSpeak">Say Expression</string>
+	<string name="textVoiceSelect">Select correct expression</string>
+	
+	<string name="buttonCalculate">Calculate</string>
+	<string name="editExpressionHint">Enter Expression</string>
+	
+	<string name="buttonCursorLeft">Left</string>
+	<string name="buttonCursorUp">Up</string>
+	<string name="buttonCursorRight">Right</string>
+	<string name="buttonCursorDown">Down</string>
+	
+	<string name="errorMessage">An error occured</string>
+	
+	<string name="buttonKey9">9</string>
+    <string name="buttonKey8">8</string>
+    <string name="buttonKey7">7</string>
+    <string name="buttonKey6">6</string>
+    <string name="buttonKey5">5</string>
+    <string name="buttonKey4">4</string>
+    <string name="buttonKey3">3</string>
+    <string name="buttonKey2">2</string>
+    <string name="buttonKey1">1</string>
+    <string name="buttonKey0">0</string>
+    <string name="buttonKey00">00</string>
+    <string name="buttonClear">Clear</string>
+    <string name="buttonOpenBracket">(</string>
+    <string name="buttonCloseBracket">)</string>
+    <string name="buttonPlus">+</string>
+    <string name="buttonMinus">-</string>
+    <string name="buttonMultiple">*</string>
+    <string name="buttonDivide">/</string>
+    <string name="buttonEquals">=</string>
+    <string name="buttonEnter">Enter</string>
+    <string name="buttonDelete">Delete</string>
+    <string name="buttonSpace">Space</string>
+    <string name="buttonDot">.</string>
+    <string name="buttonFactorial">!</string>
+    <string name="buttonPower">^</string>
+    
+    <string name="buttonKeyA">a</string>
+    <string name="buttonKeyB">b</string>
+    <string name="buttonKeyC">c</string>
+    <string name="buttonKeyD">d</string>
+    <string name="buttonKeyE">e</string>
+    <string name="buttonKeyF">f</string>
+    <string name="buttonKeyG">g</string>
+    <string name="buttonKeyH">h</string>
+    <string name="buttonKeyI">i</string>
+    <string name="buttonKeyJ">j</string>
+    <string name="buttonKeyK">k</string>
+    <string name="buttonKeyL">l</string>
+    <string name="buttonKeyM">m</string>
+    <string name="buttonKeyN">n</string>
+    <string name="buttonKeyO">o</string>
+    <string name="buttonKeyP">p</string>
+    <string name="buttonKeyQ">q</string>
+    <string name="buttonKeyR">r</string>
+    <string name="buttonKeyS">s</string>
+    <string name="buttonKeyT">t</string>
+    <string name="buttonKeyU">u</string>
+    <string name="buttonKeyV">v</string>
+    <string name="buttonKeyW">w</string>
+    <string name="buttonKeyX">x</string>
+    <string name="buttonKeyY">y</string>
+    <string name="buttonKeyZ">z</string>
+</resources>

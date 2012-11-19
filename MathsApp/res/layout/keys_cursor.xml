@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonCursorLeft"
+            style="@style/ButtonText"
+            android:background="@drawable/button_green"
+            android:text="@string/buttonCursorLeft" />
+
+        <Button
+            android:id="@+id/buttonCursorRight"
+            style="@style/ButtonText"
+            android:background="@drawable/button_green"
+            android:text="@string/buttonCursorRight" />
+
+        <Button
+            android:id="@+id/buttonCursorUp"
+            style="@style/ButtonText"
+            android:background="@drawable/button_green"
+            android:text="@string/buttonCursorUp" />
+
+        <Button
+            android:id="@+id/buttonCursorDown"
+            style="@style/ButtonText"
+            android:background="@drawable/button_green"
+            android:text="@string/buttonCursorDown" />
+
+
+</LinearLayout>

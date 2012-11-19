@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/buttonKey1"
+            style="@style/ButtonText"
+            android:background="@drawable/button_yellow"
+            android:text="@string/buttonKey1" />
+
+        <Button
+            android:id="@+id/buttonKey2"
+            style="@style/ButtonText"
+            android:background="@drawable/button_yellow"
+            android:text="@string/buttonKey2" />
+
+        <Button
+            android:id="@+id/buttonKey3"
+            style="@style/ButtonText"
+            android:background="@drawable/button_yellow"
+            android:text="@string/buttonKey3" />
+
+        <Button
+            android:id="@+id/buttonKey4"
+            style="@style/ButtonText"
+            android:background="@drawable/button_yellow"
+            android:text="@string/buttonKey4" />
+
+        <Button
+            android:id="@+id/buttonKey5"
+            style="@style/ButtonText"
+            android:background="@drawable/button_yellow"
+            android:text="@string/buttonKey5" />
+
+        <Button
+            android:id="@+id/buttonKey6"
+            style="@style/ButtonText"
+            android:background="@drawable/button_yellow"
+            android:text="@string/buttonKey6" />
+
+        <Button
+            android:id="@+id/buttonKey7"
+            style="@style/ButtonText"
+            android:background="@drawable/button_yellow"
+            android:text="@string/buttonKey7" />
+
+        <Button
+            android:id="@+id/buttonKey8"
+            style="@style/ButtonText"
+            android:background="@drawable/button_yellow"
+            android:text="@string/buttonKey8" />
+
+        <Button
+            android:id="@+id/buttonKey9"
+            style="@style/ButtonText"
+            android:background="@drawable/button_yellow"
+            android:text="@string/buttonKey9" />
+
+        <Button
+            android:id="@+id/buttonKey0"
+            style="@style/ButtonText"
+            android:background="@drawable/button_yellow"
+            android:text="@string/buttonKey0" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            style="@style/ButtonText"
+            android:background="@drawable/button_blue"
+            android:layout_width="100dip"
+            android:layout_weight="0"
+            android:text="@string/buttonDelete" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutRow01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/buttonKeyQ"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyQ" />
+
+        <Button
+            android:id="@+id/buttonKeyW"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyW" />
+
+        <Button
+            android:id="@+id/buttonKeyE"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyE" />
+
+        <Button
+            android:id="@+id/buttonKeyR"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyR" />
+        <Button
+            android:id="@+id/buttonKeyT"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyT" />
+
+        <Button
+            android:id="@+id/buttonKeyY"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyY" />
+                <Button
+            android:id="@+id/buttonKeyU"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyU" />
+
+        <Button
+            android:id="@+id/buttonKeyI"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyI" />
+       
+       <Button
+            android:id="@+id/buttonKeyO"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyO" />
+
+        <Button
+            android:id="@+id/buttonKeyP"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyP" />
+
+        <Button
+            android:id="@+id/buttonClear"
+            style="@style/ButtonText"
+            android:background="@drawable/button_blue"
+            android:layout_width="100dip"
+            android:layout_weight="0"
+            android:text="@string/buttonClear" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutRow02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/buttonKeyA"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyA" />
+
+        <Button
+            android:id="@+id/buttonKeyS"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyS" />
+
+        <Button
+            android:id="@+id/buttonKeyD"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyD" />
+
+        <Button
+            android:id="@+id/buttonKeyF"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyF" />
+                <Button
+            android:id="@+id/buttonKeyG"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyG" />
+
+        <Button
+            android:id="@+id/buttonKeyH"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyH" />
+                <Button
+            android:id="@+id/buttonKeyJ"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyJ" />
+
+        <Button
+            android:id="@+id/buttonKeyK"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyK" />
+
+        <Button
+            android:id="@+id/buttonKeyL"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyL" />
+
+        <Button
+            android:id="@+id/Button03"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="" />
+
+        <Button
+            android:id="@+id/buttonEnter"
+            style="@style/ButtonText"
+            android:background="@drawable/button_blue"
+            android:layout_width="100dip"
+            android:layout_weight="0"
+            android:text="@string/buttonEnter" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutRow03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false" >
+
+        <Button
+            android:id="@+id/Button02"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:onClick="onKeyClick" />
+
+        <Button
+            android:id="@+id/buttonKeyZ"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyZ" />
+
+        <Button
+            android:id="@+id/buttonKeyX"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyX" />
+
+        <Button
+            android:id="@+id/buttonKeyC"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyC" />
+
+        <Button
+            android:id="@+id/buttonKeyV"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyV" />
+        <Button
+            android:id="@+id/buttonKeyB"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyB" />
+
+        <Button
+            android:id="@+id/buttonKeyN"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyN" />
+
+        <Button
+            android:id="@+id/ButtonKeyM"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonKeyM" />
+
+        <Button
+            android:id="@+id/buttonDot"
+            style="@style/ButtonText"
+            android:background="@drawable/button_red"
+            android:text="@string/buttonDot" />
+        
+        <Button
+            android:id="@+id/buttonEquals"
+            style="@style/ButtonText"
+            android:background="@drawable/button_blue"
+            android:text="@string/buttonEquals" />
+
+        <Button
+            android:id="@+id/buttonSpace"
+            style="@style/ButtonText"
+            android:background="@drawable/button_blue"
+            android:layout_width="100dip"
+            android:layout_weight="0"
+            android:text="@string/buttonSpace" />
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

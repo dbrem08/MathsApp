@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.gesture.GestureOverlayView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gestures"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:eventsInterceptionEnabled="true"
+    android:gestureStrokeType="multiple"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+    
+
+    
+
+        <TextView
+            android:id="@+id/textViewExpression"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="valuep"
+            android:onClick="onKeyPress" />
+
+        <Button
+            android:id="@+id/buttonGestureClear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onKeyPress"
+            android:text="clear" />
+
+        <Button
+            android:id="@+id/buttonGestureEnter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onKeyPress"
+            android:text="Enter" />
+
+        <TextView
+            android:id="@+id/textViewExpression"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3.33"
+            android:hint="draw gesture" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <GridView
+                android:id="@+id/gridView1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:numColumns="5" >
+            </GridView>
+        </RelativeLayout>
+    </LinearLayout>
+
+</android.gesture.GestureOverlayView>
